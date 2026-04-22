@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class TokenValidationService {
 
-	private static final String SOAP_URL = "http://localhost:8080/ws";
+	private static final String SOAP_URL = "http://soap-service:8080/ws";
 
 	public boolean validateToken(String token) {
 		try {
